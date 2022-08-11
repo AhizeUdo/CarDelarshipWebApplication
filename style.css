@@ -1,0 +1,324 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;  
+    overflow-x: hidden;
+}
+
+section{
+    position: relative;
+}
+
+.packet{
+    height: 350vh;
+    /* width: 100%; */
+    /* position: relative; */
+    background-color: black;
+}
+
+.nav-container{
+    background-color:  black;
+    opacity: 0.8;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+.NavWrapper nav{
+    margin: 0;
+    padding: 0;
+}
+
+.NavWrapper nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.NavWrapper nav ul li{
+    top: .75rem;
+    padding: 9px;
+    list-style: none;
+}
+
+.NavWrapper nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.NavWrapper .BrandLogo{
+    right: 0;
+    background-image: url(/img/Logo.png);
+    height: 40px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.HamburgerNav {
+    right: 0;
+}
+
+.HamburgerNav ul{
+    display: flex;
+}
+
+.HamburgerNav .hamburger-navbar-links ul li{
+    padding: 10px;
+    display: block;
+}
+
+.HamburgerNav .hamburger-navbar-links ul li a{
+    color: white;
+    cursor: pointer;
+}
+
+.HamburgerNav .toggle-button{
+    height: 45px;
+    width: 65px;
+    background-image: url(/img/hamburgermenu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    right: 0;
+    top: .75rem;
+    flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+    .HamburgerNav{
+        opacity: 0.5;
+    }
+    .HamburgerNav .toggle-button{
+        display: flex;
+    }
+
+    .HamburgerNav .hamburger-navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .HamburgerNav nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .HamburgerNav .hamburger-navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .HamburgerNav .hamburger-navbar-links li {
+        text-align: center;
+    }
+    .HamburgerNav .hamburger-navbar-links li a{
+        padding: .5rem 1rem;
+    }
+
+    .HamburgerNav .hamburger-navbar-links ul li a{
+        color: white;
+    }
+    .HamburgerNav .hamburger-navbar-links ul li a:hover{
+        color: white;
+    }
+    .hamburger-navbar-links.active{
+        display: flex;
+    }
+
+    .bodysection-firstsection{
+        top: 50px;
+    }
+
+
+    .bodysection-firstsection .TextSection{
+        top: 450px;
+        bottom: 0;
+
+    }
+    .bodysection-firstsection .TextSection h1{
+        font-family: "QuickSand" sans-serif;
+        font-size: 31px;
+        font-weight: 600;
+        color: white;
+    }
+    .bodysection-firstsection .TextSection p{
+        font-family: "QuickSand" sans-serif;
+        font-size: 54px;
+        color: white;
+        font-weight: 900;
+        width: 350px;
+    }
+    .bodysection-firstsection .Home-Video{
+        top: 0;
+        left: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+    }
+}
+
+
+
+.bodysection-firstsection{
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+
+.bodysection-firstsection .body-section{
+    position: relative;
+    padding: 0;
+}
+
+
+.Home-Video {
+    top: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    z-index: 1; 
+    opacity: 0.55;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+ 
+}
+
+.TextSection {
+    position: absolute;
+    bottom: 200px;
+    width: 100%;
+    z-index: 2;
+}
+
+.TextSection h1{
+    font-family: "QuickSand" sans-serif;
+    font-size: 41px;
+    font-weight: 600;
+    color: white;
+}
+
+.TextSection p{
+    font-family: "QuickSand" sans-serif;
+    font-size: 114px;
+    color: white;
+    font-weight: 900;
+    width: 850px;
+}
+
+.bodysectionWrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 30;
+}
+
+.bodysection-secondsection {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 61rem;
+    left: 0px;
+    /* top: 71.20rem; */
+    position: relative;     
+}
+
+.bodysection-secondsection ul {
+    display: flex;
+}
+
+.bodysection-secondsection ul li {
+    margin-top: 30px;
+    display: block;
+    padding: 10px;
+    list-style: none;
+}
+
+.bodysection-secondsection .one{
+    font-size: 52px;
+    color: white;
+}
+
+.bodysection-secondsection p{
+    font-size: 25px;
+    color: white;
+}
+
+.bodysection-secondsection .secondsectionimg{
+    background-image: url(/img/kindpng_3838228.png);
+    height: 38em;
+    width: 100%;
+    bottom: 250px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bodysection-secondsectiontwin{
+    background-color: black;
+    height: 50rem;
+    position: absolute;
+}
+
+.bodysection-secondsectiontwin ul {
+    display: flex;
+}
+
+.bodysection-secondsectiontwin .secondsectionimgtwo{
+    background-image: url(/img/Mclaren-PNG-Photo-Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    height: 38rem;
+}
+
+.bodysectionWrapper .bodysection-secondsectiontwin  p{
+    padding: 10px;
+    color: white;
+    font-size: 27px;
+}
+
+.bodysectionWrapper  .bodysection-secondsectiontwin h1{
+    font-size: 90px;
+    color: white;
+    padding: 50px;
+}
+
+.bodysectionWrapper .footerSesction{
+    background-color: white;
+    position: absolute;
+}
+
