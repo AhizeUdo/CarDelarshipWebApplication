@@ -14,9 +14,9 @@ section{
 }
 
 .packet{
-    height: 350vh;
+    height: 450vh;
     /* width: 100%; */
-    /* position: relative; */
+    position: relative;
     background-color: black;
 }
 
@@ -317,8 +317,61 @@ section{
     padding: 50px;
 }
 
-.bodysectionWrapper .footerSesction{
-    background-color: white;
+.bodysectionWrapper .footerSection{
+    /* background-color: white; */
+    position: relative;
+    top: 85em;
+}
+
+.bodysectionWrapper .footerSection .firstfootersection{
+    height: 29rem;
+    padding: 10em;
+    width: 100%;
+    right: 0;
+    left: 0;
     position: absolute;
+    background-image: url(/img/footersection.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bodysectionWrapper .footerSection h2{
+    color: white;
+    font-family: "QuickSand" sans-serif;
+    font-size: 60px;
+}
+
+.bodysectionWrapper .footerSection p{
+    color: white;
+    font-family: "QuickSand" sans-serif;
+    font-size: 30px;
+}
+
+.bodysectionWrapper .footerSection button{
+    color: black;
+    border-radius: 10px;
+    height: 2.5em;
+    width: 5em;
+} 
+
+.bodysectionWrapper .footerSection .secondfootersection{
+    padding: 6em;
+    background-color: black;
+    position: absolute;
+    top: 25em;
+    height: 29em;
+    width: 100%;
+}
+
+.bodysectionWrapper .footerSection .secondfootersection ul{
+    padding: 1em;
+}
+
+.bodysectionWrapper .footerSection .secondfootersection ul li{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    padding: 0.5em;
 }
 
