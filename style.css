@@ -73,8 +73,8 @@ section{
     position: absolute;
     z-index: 1;
     min-width: 160px;
-    height: 14em;
-    width: 20em;
+    height: 22em;
+    width: 100vw;
     background-color: black;
     box-shadow: 0px 8px 16px 0px rgba(250, 250, 250, 0.603);
 }
@@ -89,15 +89,104 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 250px;
+    height: 350px;
+    width: 490px;
+    padding: q5rem;
 }
 
-.NavWrapper .dropdown-content .dropdownimgP1{
+
+/* .NavWrapper .dropdown .dropdown-content .BespokeModel{
+    position: absolute;
+} */
+
+.NavWrapper .dropdown .dropdown-content .BespokeModel ul{
+    display: flex;
+    padding: 2.5rem;
+}
+
+.NavWrapper .dropdown .dropdown-content .BespokeModel ul li{
+    padding: 5px 100px 20px 10px;
+}
+
+.NavWrapper .dropdown-content .BespokeModel ul .dropdownimgP1{
     background-image: url(/img/P1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 230px;
+    width: 400px;
+}
+
+.NavWrapper .dropdown-content .BespokeModel ul .dropdownimgbespoke1{
+    background-image: url(/img/bespokeone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 230px;
+    width: 400px;
+}
+
+.NavWrapper .dropdown-content .BespokeModel ul .dropdownimgbespoke2{
+    background-image: url(/img/bespoke3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 450px;
+}
+
+.NavWrapper .dropdown-content .SuperModel ul .dropdownimgbespoke2{
+    background-image: url(/img/bespoke3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 450px;
+}
+
+.NavWrapper .dropdown-content .SuperModel ul .dropdownimgP1{
+    background-image: url(/img/hypertwo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 450px;
+}
+
+.NavWrapper .dropdown-content .SuperModel ul .dropdownimgbespoke1{
+    background-image: url(/img/hyper3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 450px;
+}
+
+.NavWrapper .dropdown-content .HyperModel ul .dropdownimgbespoke1{
+    background-image: url(/img/McLaren-Speedtail-Albert-2021-5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 299px;
+    width: 499px;
+}
+
+.NavWrapper .dropdown-content .HyperModel ul .dropdownimgP1{
+    background-image: url(/img/hypertwo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 450px;
+}
+
+.NavWrapper .dropdown-content .HyperModel ul .dropdownimgbespoke2{
+    background-image: url(/img/McLaren-Elva-2021-6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 450px;
 }
 
 
@@ -417,9 +506,33 @@ section{
     padding: 0.5em;
 }
 
-.bodysectionWrapper .footerSection .secondfootersection ul .followus{
+.bodysectionWrapper .footerSection .secondfootersection-secondpart ul .followus{
     color: white;
     font-size: 42px;
     padding: 0.5em;
 }
+
+.bodysectionWrapper .footerSection .secondfootersection-secondpart ul .Instagram{
+    background-image: url(/img/instagram.png);
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bodysectionWrapper .footerSection .secondfootersection-secondpart ul .Facebook{
+    background-image: url(/img/facebook.png);
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bodysectionWrapper .footerSection .secondfootersection-secondpart ul .Whatsapp{
+    background-image: url(/img/whatsapp.png);
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 
