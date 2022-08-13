@@ -1,0 +1,66 @@
+
+section{
+    position: relative;
+}
+
+.packetGT{
+    position: relative;
+    height: 280vh;
+}
+
+.sectionGT{
+    top: 5.8rem;
+    position: absolute;
+    width: 100vw;
+    /* background-color: blue; */
+}
+
+.sectionGT h1{
+    font-size: 150px;
+    font-family: "QuickSand" sans-serif;
+}
+
+.sectionGT p{
+    font-size: 40px;
+    text-align: center;
+}
+
+.secondsectionGT{
+    top: 15.2rem;
+    position:absolute;
+    height: 50rem;
+    width: 100vw;
+    left: 0;
+    background-image: url(/img/GTOne.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.thirdsectionGT{
+    top: 65.2rem;
+    left: 0;
+    position:absolute;
+    width: 100vw;
+}
+
+.sectionGT .thirdsectionGT .specifications h1{
+    font-size: 100px;
+    font-family: "QuickSand" sans-serif;
+    text-align: center;
+}
+
+.sectionGT .thirdsectionGT .specifications hr{
+    color: grey;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footerGT{
+    top: 40rem;
+    left: 0;
+    right: 0;
+    position:absolute;
+    width: 100vw;
+}
