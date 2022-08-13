@@ -14,7 +14,7 @@ section{
 }
 
 .packet{
-    height: 450vh;
+    height: 470vh;
     /* width: 100%; */
     position: relative;
     background-color: black;
@@ -43,6 +43,8 @@ section{
     top: .75rem;
     padding: 9px;
     list-style: none;
+    position: relative;
+    display: inline-block;
 }
 
 .NavWrapper nav ul li a {
@@ -66,8 +68,42 @@ section{
     background-repeat: no-repeat;
 }
 
+.NavWrapper .dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+    height: 14em;
+    width: 20em;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(250, 250, 250, 0.603);
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    top: 5em;
+}
+.NavWrapper .dropdown-content .dropdownimgGT{
+    background-image: url(/img/GT.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+}
+
+.NavWrapper .dropdown-content .dropdownimgP1{
+    background-image: url(/img/P1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 230px;
+}
+
+
 .HamburgerNav {
     right: 0;
+    position: relative;
 }
 
 .HamburgerNav ul{
@@ -82,6 +118,7 @@ section{
 .HamburgerNav .hamburger-navbar-links ul li a{
     color: white;
     cursor: pointer;
+    right: 0;
 }
 
 .HamburgerNav .toggle-button{
@@ -222,7 +259,7 @@ section{
 .TextSection h1{
     font-family: "QuickSand" sans-serif;
     font-size: 41px;
-    font-weight: 600;
+    font-weight: 200;
     color: white;
 }
 
@@ -230,7 +267,7 @@ section{
     font-family: "QuickSand" sans-serif;
     font-size: 114px;
     color: white;
-    font-weight: 900;
+    font-weight: 200;
     width: 850px;
 }
 
@@ -324,8 +361,8 @@ section{
 }
 
 .bodysectionWrapper .footerSection .firstfootersection{
-    height: 29rem;
-    padding: 10em;
+    height: 49rem;
+    padding: 12em;
     width: 100%;
     right: 0;
     left: 0;
@@ -339,13 +376,13 @@ section{
 .bodysectionWrapper .footerSection h2{
     color: white;
     font-family: "QuickSand" sans-serif;
-    font-size: 60px;
+    font-size: 85px;
 }
 
 .bodysectionWrapper .footerSection p{
     color: white;
     font-family: "QuickSand" sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .bodysectionWrapper .footerSection button{
@@ -359,10 +396,15 @@ section{
     padding: 6em;
     background-color: black;
     position: absolute;
-    top: 25em;
+    top: 35em;
     height: 29em;
     width: 100%;
 }
+
+.bodysectionWrapper .footerSection .secondfootersection-secondpart{
+    background-image: linear-gradient(black, rgb(61, 61, 61), black, black);
+}
+
 
 .bodysectionWrapper .footerSection .secondfootersection ul{
     padding: 1em;
@@ -370,8 +412,14 @@ section{
 
 .bodysectionWrapper .footerSection .secondfootersection ul li{
     color: white;
-    font-size: 20px;
+    font-size: 29px;
     list-style: none;
+    padding: 0.5em;
+}
+
+.bodysectionWrapper .footerSection .secondfootersection ul .followus{
+    color: white;
+    font-size: 42px;
     padding: 0.5em;
 }
 
