@@ -1,0 +1,12 @@
+.containercontacts{
+    background-image: url(/img/contactsPage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    margin-left: 0;
+}
+
