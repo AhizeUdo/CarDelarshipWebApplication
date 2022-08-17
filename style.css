@@ -14,7 +14,7 @@ section{
 }
 
 .packet{
-    height: 470vh;
+    height: 480vh;
     /* width: 100%; */
     position: relative;
     background-color: black;
@@ -485,7 +485,7 @@ section{
     background-color: black;
     position: absolute;
     top: 35em;
-    height: 29em;
+    height: 55em;
     width: 100%;
 }
 
