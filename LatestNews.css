@@ -1,0 +1,16 @@
+.ln-section-one{
+    position: absolute;
+    background-color: blue;
+}
+
+.ln-section-one h1{
+    color: white;
+}
+
+.ln-section-one p{
+    color: white;
+}
+
+.ln-section-one a{
+    color: white;
+}
