@@ -1,16 +1,51 @@
+.packetlatestnews{
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+.ln-section-one .hrln{
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 .ln-section-one{
-    position: absolute;
-    background-color: blue;
+    position: relative;
+    top: 8rem;
+    background-image: linear-gradient(black, rgb(48, 48, 48), rgb(59, 59, 1), black);
+    height: 20rem;
 }
 
 .ln-section-one h1{
     color: white;
+    font-family: "QuickSand" sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .ln-section-one p{
     color: white;
+    font-family: "QuickSand" sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
 
-.ln-section-one a{
-    color: white;
+.LatestNews{
+    left: 0;
+    right: 0;
+    position:absolute;
+    width: 100vw;
+    height: 10rem;
+    background-color: blanchedalmond;
 }
+
+.ln-section-two{
+    position: relative;
+}
+
+.ln-section-two .rows{
+    padding: 10px 20px 15px;
+    margin-left: 8%;
+}
+
