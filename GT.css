@@ -64,3 +64,25 @@ section{
     position:absolute;
     width: 100vw;
 }
+
+@media (max-width: 1000px){
+    .packetGT{
+        width: 100vw;
+        height: 20vh;
+        position: relative;
+    }
+
+    .sectionGT .secondsectionGT{
+        top: 30rem;
+        position: absolute;
+    }
+
+    .sectionGT .thirdsectionGT{
+        top: 80rem;
+    }
+
+    .sectionGT .footerGT{
+        top: 90rem;
+        position: absolute;
+    }
+}

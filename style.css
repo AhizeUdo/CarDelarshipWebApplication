@@ -227,8 +227,15 @@ section{
 }
 
 @media (max-width: 1000px) {
+    .packet{ 
+        height: 300vh;
+        position: relative;
+    }
     .HamburgerNav{
-        opacity: 0.5;
+        opacity: 1;
+        display: flex;
+        position: relative;
+        left: 0;
     }
     .HamburgerNav .toggle-button{
         display: flex;
@@ -236,7 +243,7 @@ section{
 
     .HamburgerNav .hamburger-navbar-links {
         display: none;
-        width: 100%;
+        width: 100vw;
     }
 
     .HamburgerNav nav{
@@ -246,48 +253,112 @@ section{
 
     .HamburgerNav .hamburger-navbar-links ul {
         width: 100%;
+        height: 22rem;
+        left: 0;
         flex-direction: column;
+        background-color: rgb(0, 0, 0);
     }
 
     .HamburgerNav .hamburger-navbar-links li {
+        top: 0.5rem;
         text-align: center;
-    }
-    .HamburgerNav .hamburger-navbar-links li a{
-        padding: .5rem 1rem;
     }
 
     .HamburgerNav .hamburger-navbar-links ul li a{
+        padding: .3rem;
+        text-align: center;
         color: white;
     }
+
     .HamburgerNav .hamburger-navbar-links ul li a:hover{
         color: white;
     }
+
     .hamburger-navbar-links.active{
         display: flex;
     }
 
-    .bodysection-firstsection{
-        top: 50px;
+    .NavWrapper .dropdown-content{
+        height: 180px;
+        width: 130px;
+        background: none;
     }
 
+    .NavWrapper .dropdown-content .car{
+        background-image: url(/img/GT.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 175px;
+        width: 125px;
+        padding: 5rem;
+    }
 
+    .NavWrapper .dropdown-content .cars ul .media-car{
+        height: 75px;
+        width: 185px;
+        top: 0;
+        padding: 1.5rem;
+    }
+
+    
+    .NavWrapper .dropdown-content .cars ul .hyper{
+        height: 155px;
+        width: 350px;
+        padding: 2rem;
+    }
+
+    .NavWrapper .dropdown .dropdown-content .cars ul{
+        height: 10em;
+        
+    }
+    .NavWrapper .dropdown .dropdown-content .cars ul li{
+       flex-direction: column;
+       height: 10em;
+       width: 7.5em;
+    }
+
+    .NavWrapper .dropdown .dropdown-content .Supercars ul{
+        display: inline-block;
+        height: 9em;
+        right: 6rem;
+        
+    }
+    .NavWrapper .dropdown .dropdown-content .Supercars ul li{
+       flex-direction: column;
+       height: 9em;
+       right: 6rem;
+    }
+
+    .bodysection-firstsection{
+        top: 0px;
+    }
+
+    .body-section .Home-Video{
+        width: 100vw;
+    }
+    
     .bodysection-firstsection .TextSection{
-        top: 450px;
+        top: 285px;
         bottom: 0;
-
+        font-size: 70px;
     }
     .bodysection-firstsection .TextSection h1{
         font-family: "QuickSand" sans-serif;
         font-size: 31px;
         font-weight: 600;
-        color: white;
+        color: black;
+        text-shadow: 2px 2px #535151;
+        text-align: center;
     }
     .bodysection-firstsection .TextSection p{
         font-family: "QuickSand" sans-serif;
-        font-size: 54px;
-        color: white;
+        font-size: 56px;
+        color: black;
         font-weight: 900;
-        width: 350px;
+        width: 100%;
+        text-shadow: 2px 2px #535151;
+        text-align: center;
     }
     .bodysection-firstsection .Home-Video{
         top: 0;
@@ -297,8 +368,46 @@ section{
         min-height: 100%;
         position: absolute;
     }
+
+
+    .bodysectionWrapper .bodysection-secondsection{
+        top: 36rem;
+        /* height: 70rem; */
+    }
+    
+    .bodysectionWrapper .bodysection-secondsectiontwin{
+        top: 50rem;
+        position: relative;
+    }
+
+    .bodysectionWrapper .bodysection-secondsectiontwin h1{
+        font-size: 5px;
+        position: absolute;
+    }
+
+    .bodysectionWrapper .bodysection-secondsectiontwin .secondsectionimgtwo{
+        position: relative;
+        top: 10rem;
+        opacity: 0.45;
+    }
+
+    .bodysectionWrapper .footerSection .firstfootersection{
+        padding: 5em;
+        height: 40rem;
+        position: absolute;
+    }
+
+    .bodysectionWrapper .footerSection .firstfootersection h2{
+        font-size: 40px;
+        padding: 1em;
+    }
+
+    .bodysectionWrapper .footerSection .firstfootersection p{
+        font-size: 34px;
+    }
 }
 
+/* Stop Editing */
 
 .bodysection-firstsection{
     margin: 0;
