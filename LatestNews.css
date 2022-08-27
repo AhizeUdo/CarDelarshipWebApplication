@@ -1,5 +1,5 @@
 .packetlatestnews{
-    height: 100vh;
+    height: 146vh;
     position: relative;
     background-color: black;
 }
@@ -12,7 +12,7 @@
 .ln-section-one{
     position: relative;
     top: 8rem;
-    background-image: linear-gradient(black, rgb(48, 48, 48), rgb(59, 59, 1), black);
+    background-image: linear-gradient(black, rgb(61, 61, 61), black, black);
     height: 20rem;
     transition: height 2s;
 }
@@ -35,7 +35,6 @@
 }
 
 .ln-section-one:hover{
-    background-color: aqua;
     height: 30rem;
 }
 
@@ -62,8 +61,56 @@
     position: relative;
 }
 
+.ln-section-two .card-title{
+   color: black;
+   font-weight: 700;
+}
+
+.ln-section-two p{
+    color: black;
+    font-weight: 600;
+ }
+
+ .ln-section-two a{
+    color: grey;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+ .ln-section-two a:hover{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+ }
+
 .ln-section-two .rows{
     padding: 10px 20px 15px;
     margin-left: 8%;
 }
 
+@media (max-width: 1000px){
+    .ln-section-one{
+        position: relative;
+        top: 8rem;
+        background-image: linear-gradient(black, rgb(66, 51, 51), black, black);
+        height: 20rem;
+        transition: height 2s;
+    }
+
+    .ln-section-two .card{
+        box-shadow: 0px 8px 16px 0px rgba(187, 176, 176, 0.603);
+        padding: 1rem;
+    }
+
+    .packetlatestnews{
+        height: 209vh;
+        position: relative;
+        background-color: black;
+    }
+}
+
+
+
+/* box-shadow: 0px 8px 16px 0px rgba(250, 250, 250, 0.603); */

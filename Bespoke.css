@@ -297,6 +297,10 @@ section{
         min-height: 100%;
         position: absolute;
     }
+
+    .bodysection-secondsection .split-images p{
+        color: blue;
+    }
 }
 
 

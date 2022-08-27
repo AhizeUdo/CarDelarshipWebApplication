@@ -234,8 +234,9 @@ section{
     .HamburgerNav{
         opacity: 1;
         display: flex;
-        position: relative;
         left: 0;
+        width: 100vw;
+        position: absolute;
     }
     .HamburgerNav .toggle-button{
         display: flex;
@@ -244,6 +245,7 @@ section{
     .HamburgerNav .hamburger-navbar-links {
         display: none;
         width: 100vw;
+
     }
 
     .HamburgerNav nav{
@@ -251,12 +253,18 @@ section{
         align-items: flex-start;
     }
 
+    .HamburgerNav .hamburger-navbar-links{
+        background-color: rgb(5, 5, 5);
+        position: absolute;
+        left: 0;
+    }
+
     .HamburgerNav .hamburger-navbar-links ul {
-        width: 100%;
+        width: 100vw;
+        left: 0;
         height: 22rem;
         left: 0;
         flex-direction: column;
-        background-color: rgb(0, 0, 0);
     }
 
     .HamburgerNav .hamburger-navbar-links li {
@@ -279,9 +287,19 @@ section{
     }
 
     .NavWrapper .dropdown-content{
+        position: absolute;
+        min-width: 160px;
+        height: 0.1em;
+        width: 100vw;
+        background-color: black;
+        box-shadow: 0px 8px 16px 0px rgba(250, 250, 250, 0.603);
+    }
+
+    .NavWrapper .dropdown-content ul{
         height: 180px;
         width: 130px;
-        background: none;
+        flex-direction: column;
+        display: flex;
     }
 
     .NavWrapper .dropdown-content .car{
@@ -303,7 +321,7 @@ section{
 
     
     .NavWrapper .dropdown-content .cars ul .hyper{
-        height: 155px;
+        height: 135px;
         width: 350px;
         padding: 2rem;
     }
@@ -319,13 +337,12 @@ section{
     }
 
     .NavWrapper .dropdown .dropdown-content .Supercars ul{
-        display: inline-block;
+        display: block;
         height: 9em;
         right: 6rem;
         
     }
     .NavWrapper .dropdown .dropdown-content .Supercars ul li{
-       flex-direction: column;
        height: 9em;
        right: 6rem;
     }
@@ -348,7 +365,7 @@ section{
         font-size: 31px;
         font-weight: 600;
         color: black;
-        text-shadow: 2px 2px #535151;
+        text-shadow: 2px 2px #c9c9c9;
         text-align: center;
     }
     .bodysection-firstsection .TextSection p{
@@ -357,7 +374,7 @@ section{
         color: black;
         font-weight: 900;
         width: 100%;
-        text-shadow: 2px 2px #535151;
+        text-shadow:2px 2px #c9c9c9;
         text-align: center;
     }
     .bodysection-firstsection .Home-Video{
@@ -374,27 +391,39 @@ section{
         top: 36rem;
         /* height: 70rem; */
     }
-    
-    .bodysectionWrapper .bodysection-secondsectiontwin{
-        top: 50rem;
-        position: relative;
+
+    .bodysectionWrapper .bodysection-secondsection .one{
+        font-size: 30px;
     }
 
-    .bodysectionWrapper .bodysection-secondsectiontwin h1{
-        font-size: 5px;
-        position: absolute;
+    .bodysectionWrapper .bodysection-secondsection p{
+        font-size: 20px;
+    }
+    
+    .bodysectionWrapper .bodysection-secondsectiontwin{
+        top: 19.9rem;
+    }
+
+    .bodysectionWrapper .bodysection-secondsectiontwin .section-two-text-p{
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .bodysectionWrapper .bodysection-secondsectiontwin .section-two-text-h1{
+        font-size: 40px;
+        text-align: center;
     }
 
     .bodysectionWrapper .bodysection-secondsectiontwin .secondsectionimgtwo{
-        position: relative;
-        top: 10rem;
+        top: 0rem;
         opacity: 0.45;
     }
 
     .bodysectionWrapper .footerSection .firstfootersection{
         padding: 5em;
         height: 40rem;
-        position: absolute;
+        width: 100vw;
+        position: relative;
     }
 
     .bodysectionWrapper .footerSection .firstfootersection h2{
@@ -558,9 +587,9 @@ section{
 }
 
 .bodysectionWrapper .footerSection .firstfootersection{
-    height: 49rem;
+    height: 39rem;
     padding: 12em;
-    width: 100%;
+    width: 100vw;
     right: 0;
     left: 0;
     position: absolute;
