@@ -1,5 +1,5 @@
 .packetlatestnews{
-    height: 100vh;
+    height: 130vh;
     position: relative;
     background-color: black;
 }
@@ -105,7 +105,7 @@
     }
 
     .packetlatestnews{
-        height: 209vh;
+        height: 100vh;
         position: relative;
         background-color: black;
     }
