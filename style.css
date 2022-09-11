@@ -228,7 +228,7 @@ section{
 
 @media (max-width: 1000px) {
     .packet{ 
-        height: 300vh;
+        height: 200vh;
         position: relative;
     }
     .HamburgerNav{
