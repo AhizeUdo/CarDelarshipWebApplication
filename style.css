@@ -461,13 +461,13 @@ section{
         opacity: 0.45;
     }
 
-    .bodysectionWrapper .footerSection{
+    /* .bodysectionWrapper .footerSection{
         height: 30rem;
         background-color: rgb(0, 96, 128);
         position: absolute;
         margin-bottom: 90rem;
         
-    }
+    } */
 
     .packet .bodysectionWrapper .footerSection .firstfootersection{
         height: 14rem;
@@ -482,13 +482,19 @@ section{
 
 
     .bodysectionWrapper .footerSection .firstfootersection h2{
-        font-size: 14px;
+        font-size: 16px;
         padding: 1em;
         color:  white;
     }
 
     .bodysectionWrapper .footerSection .firstfootersection p{
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    
+    .packet .bodysectionWrapper .footerSection .secondfootersection{
+        height: 20em;
+        margin-bottom: 100rem;
     }
 
     .packet .bodysectionWrapper .footerSection .secondfootersection ul li{
@@ -497,8 +503,32 @@ section{
         list-style: none;
         padding: 0.5em;
         display: block;
+        bottom: 50rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Stop Editing */
 
