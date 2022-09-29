@@ -229,7 +229,7 @@ section{
 
 @media (max-width: 1000px) {
     .packet{ 
-        height: 200vh;
+        height: 170vh;
         position: relative;
     }
     .HamburgerNav{
@@ -428,55 +428,76 @@ section{
     }
     
     .bodysectionWrapper .bodysection-secondsectiontwin{
-        background-image: linear-gradient(white, yellow);
+        background-image: linear-gradient(white, rgb(166, 166, 166), rgb(136, 136, 124), black);
         border-style: none;
         padding: 0;
         height: 13rem;
     }
 
-    .bodysectionWrapper .secondsectionimgtwo{
-        background-color: red;
+    .bodysectionWrapper .bodysection-secondsectiontwin .secondsectionimgtwo{
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 5rem;
+        height: 13rem;
+        background-color: black;
+        position: absolute;
     }
 
     .bodysectionWrapper .bodysection-secondsectiontwin .section-two-text-p{
         font-size: 10px;
         text-align: center;
         color: black;
-        font-weight: 500;
+        font-weight: 700;
     }
 
     .bodysectionWrapper .bodysection-secondsectiontwin .section-two-text-h1{
         font-size: 10px;
         text-align: center;
         color: black;
-        font-weight: 500;
+        font-weight: 700;
     }
 
     .bodysectionWrapper .bodysection-secondsectiontwin .secondsectionimgtwo{
         opacity: 0.45;
     }
 
-    .bodysectionWrapper .footerSection .firstfootersection{
-        height: 2rem;
-        width: 100vw;
-        position: relative;
+    .bodysectionWrapper .footerSection{
+        height: 30rem;
+        background-color: rgb(0, 96, 128);
+        position: absolute;
+        margin-bottom: 90rem;
+        
     }
 
+    .packet .bodysectionWrapper .footerSection .firstfootersection{
+        height: 14rem;
+        width: 100vw;
+        padding: 5em;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        bottom: 76rem;
+        /* display: none; */
+    
+    }
+
+
     .bodysectionWrapper .footerSection .firstfootersection h2{
-        font-size: 10px;
+        font-size: 14px;
         padding: 1em;
+        color:  white;
     }
 
     .bodysectionWrapper .footerSection .firstfootersection p{
         font-size: 10px;
     }
 
-    .bodysectionWrapper .footerSection .secondfootersection ul li{
+    .packet .bodysectionWrapper .footerSection .secondfootersection ul li{
         font-size: 10px;
+        color: yellow;
+        list-style: none;
+        padding: 0.5em;
+        display: block;
     }
 }
 
