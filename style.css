@@ -369,15 +369,15 @@ section{
     }
 
     .body-section .Home-Video{
-        top: 30rem;
         width: 100%;
     }
     
     .bodysection-firstsection .TextSection{
-        top: 150px;
+        top: 170px;
         bottom: 0;
         font-size: 30px;
     }
+    
     .bodysection-firstsection .TextSection h1{
         font-family: "QuickSand" sans-serif;
         font-size: 20px;
