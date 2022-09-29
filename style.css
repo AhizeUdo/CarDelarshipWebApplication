@@ -290,7 +290,17 @@ section{
     .NavWrapper .dropdown a{
         color: yellow;
         padding: 0px;
-        font-size: 19px;
+        font-size: 12px;
+    }
+
+    .NavWrapper .BrandLogo{
+        height: 10px;
+        width: 70px;
+    }
+
+    .HamburgerNav .toggle-button{
+        height: 30px;
+        width: 80px;
     }
 
     .NavWrapper .dropdown-content{
@@ -359,13 +369,14 @@ section{
     }
 
     .body-section .Home-Video{
-        width: 100vw;
+        top: 30rem;
+        width: 100%;
     }
     
     .bodysection-firstsection .TextSection{
-        top: 205px;
+        top: 100px;
         bottom: 0;
-        font-size: 70px;
+        font-size: 30px;
     }
     .bodysection-firstsection .TextSection h1{
         font-family: "QuickSand" sans-serif;
