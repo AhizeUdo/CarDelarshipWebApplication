@@ -200,14 +200,15 @@ section{
 }
 
 .HamburgerNav .hamburger-navbar-links ul li{
-    padding: 10px;
     display: block;
 }
 
 .HamburgerNav .hamburger-navbar-links ul li a{
     color: white;
+    margin-left: 8rem;
     cursor: pointer;
     right: 0;
+    padding: 0;
 }
 
 .HamburgerNav .toggle-button{
