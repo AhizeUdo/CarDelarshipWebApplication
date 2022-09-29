@@ -357,7 +357,7 @@ section{
     }
     
     .bodysection-firstsection .TextSection{
-        top: 285px;
+        top: 205px;
         bottom: 0;
         font-size: 70px;
     }
@@ -389,7 +389,7 @@ section{
 
 
     .bodysectionWrapper .bodysection-secondsection{
-        top: 36rem;
+        top: 24rem;
         /* height: 70rem; */
     }
 
@@ -403,6 +403,7 @@ section{
     
     .bodysectionWrapper .bodysection-secondsectiontwin{
         top: 19.9rem;
+        height: 17rem;
     }
 
     .bodysectionWrapper .bodysection-secondsectiontwin .section-two-text-p{
