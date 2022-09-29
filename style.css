@@ -410,40 +410,38 @@ section{
     }
 
     .secondsectionimgcontainer{
-        display: none;
-        
+        display: none; 
     }
 
     .bodysectionWrapper .bodysection-secondsection{
-        top: 24rem;
+        top: 3rem;
         /* height: 70rem; */
     }
 
     .bodysectionWrapper .bodysection-secondsection .one{
-        font-size: 30px;
+        font-size: 10px;
     }
 
     .bodysectionWrapper .bodysection-secondsection p{
-        font-size: 20px;
+        font-size: 13px;
     }
     
     .bodysectionWrapper .bodysection-secondsectiontwin{
-        top: 5.9rem;
-        height: 4rem;
+        height: 2rem;
+        top: 2rem;
     }
 
     .bodysectionWrapper .bodysection-secondsectiontwin .section-two-text-p{
-        font-size: 19px;
+        font-size: 10px;
         text-align: center;
     }
 
     .bodysectionWrapper .bodysection-secondsectiontwin .section-two-text-h1{
-        font-size: 28px;
+        font-size: 10px;
         text-align: center;
     }
 
     .bodysectionWrapper .bodysection-secondsectiontwin .secondsectionimgtwo{
-        top: 0rem;
         opacity: 0.45;
     }
 
