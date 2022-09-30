@@ -461,15 +461,20 @@ section{
     }
 
     .packet .bodysectionWrapper .footerSection{
-        height: 18rem;
+        height: 24rem;
         padding: 0;
         margin: 0;
         position: relative;
         left: 0;
         right: 0;
-        bottom: 2rem;
+        /* bottom: 2rem; */
         /* display: none; */
        
+    }
+
+    .packet .bodysectionWrapper .bodysection-secondsectiontwin .secondsectionimgtwo{
+        height: 15rem;
+        margin: 10px;
     }
 
     .packet .bodysectionWrapper .footerSection .firstfootersection{
@@ -477,6 +482,9 @@ section{
         width: 100vw;
         padding: 5em;
         position: relative;
+        right: 0;
+        margin: 0;
+        left: 0;
         background-size: cover;
         background-position: center;
         /* display: none; */
@@ -500,7 +508,6 @@ section{
         margin: 0;
         padding: 0;
         left: 0;
-        bottom: 500rem;
     }
 
     .packet .bodysectionWrapper .footerSection .secondfootersection .footersecone ul li{
