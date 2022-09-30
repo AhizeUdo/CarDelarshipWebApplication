@@ -416,7 +416,6 @@ section{
         background-image: linear-gradient(black, white);
         border-style: none;
         height: 28rem;
-        /* height: 70rem; */
     }
 
     .bodysectionWrapper .bodysection-secondsection .one{
@@ -457,17 +456,12 @@ section{
         font-weight: 700;
     }
 
-    .bodysectionWrapper .bodysection-secondsectiontwin .secondsectionimgtwo{
-        opacity: 0.45;
-    }
-
-    /* .bodysectionWrapper .footerSection{
+    .packet .bodysectionWrapper .footerSection{
         height: 30rem;
         background-color: rgb(0, 96, 128);
-        position: absolute;
-        margin-bottom: 90rem;
-        
-    } */
+        position: relative;
+        bottom: 290rem;
+    }
 
     .packet .bodysectionWrapper .footerSection .firstfootersection{
         height: 14rem;
@@ -493,8 +487,18 @@ section{
 
     
     .packet .bodysectionWrapper .footerSection .secondfootersection{
-        height: 20em;
-        margin-bottom: 100rem;
+        height: 17.8em;
+        background-color: burlywood;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        bottom: 50rem;
+    }
+
+    .packet .bodysectionWrapper .footerSection .secondfootersection .footersecone ul li{
+        color: red;
+        bottom: 60rem;
     }
 
     .packet .bodysectionWrapper .footerSection .secondfootersection ul li{
@@ -506,14 +510,6 @@ section{
         bottom: 50rem;
     }
 }
-
-
-
-
-
-
-
-
 
 
 
