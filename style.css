@@ -461,10 +461,13 @@ section{
     }
 
     .packet .bodysectionWrapper .footerSection{
-        height: 20rem;
+        height: 15rem;
         padding: 0;
         margin: 0;
-        position: absolute;
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 5rem;
         /* display: none; */
        
     }
