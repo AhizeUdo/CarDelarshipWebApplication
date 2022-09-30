@@ -14,7 +14,7 @@ section{
 }
 
 .packet{
-    height: 480vh;
+    height: 285vh;
     /* width: 100%; */
     position: relative;
     background-color: black;
@@ -373,7 +373,7 @@ section{
     }
     
     .bodysection-firstsection .TextSection{
-        top: 170px;
+        top: 175px;
         bottom: 0;
         font-size: 30px;
     }
@@ -381,7 +381,7 @@ section{
     .bodysection-firstsection .TextSection h1{
         font-family: "QuickSand" sans-serif;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 300;
         color: white;
         text-shadow:2px 2px #383737;
         text-align: center;
@@ -390,7 +390,7 @@ section{
         font-family: "QuickSand" sans-serif;
         font-size: 15px;
         color: white;
-        font-weight: 900;
+        font-weight: 300;
         width: 100%;
         padding: 10px;
         text-shadow:2px 2px #383737;
@@ -484,10 +484,9 @@ section{
         font-size: 12px;
     }
 
-    
     .packet .bodysectionWrapper .footerSection .secondfootersection{
         height: 17.8em;
-        background-color: burlywood;
+        background-color: black;
         position: absolute;
         margin: 0;
         padding: 0;
