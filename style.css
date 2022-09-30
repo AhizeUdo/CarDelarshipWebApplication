@@ -228,6 +228,10 @@ section{
 }
 
 @media (max-width: 1000px) {
+    /* body{
+        height: 100px;
+        background-color: pink;
+    } */
     .packet{ 
         height: 170vh;
         position: relative;
@@ -457,9 +461,12 @@ section{
     }
 
     .packet .bodysectionWrapper .footerSection{
-        height: 30rem;
-        background-color: rgb(0, 96, 128);
-        position: relative;
+        height: 20rem;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        /* display: none; */
+       
     }
 
     .packet .bodysectionWrapper .footerSection .firstfootersection{
@@ -469,7 +476,7 @@ section{
         position: relative;
         background-size: cover;
         background-position: center;
-        bottom: 59rem;
+        bottom: 65rem;
         /* display: none; */
     }
 
@@ -491,21 +498,21 @@ section{
         margin: 0;
         padding: 0;
         left: 0;
-        bottom: 50rem;
+        bottom: 500rem;
     }
 
     .packet .bodysectionWrapper .footerSection .secondfootersection .footersecone ul li{
-        color: red;
-        bottom: 60rem;
+        color: white;
+
+        /* bottom: 60rem; */
     }
 
     .packet .bodysectionWrapper .footerSection .secondfootersection ul li{
         font-size: 10px;
-        color: yellow;
+        color: white;
         list-style: none;
         padding: 0.5em;
         display: block;
-        bottom: 50rem;
     }
 }
 
@@ -671,7 +678,7 @@ section{
 .bodysectionWrapper .footerSection{
     /* background-color: white; */
     position: relative;
-    top: 85em;
+    /* top: 85em; */
 }
 
 .bodysectionWrapper .footerSection .firstfootersection{
