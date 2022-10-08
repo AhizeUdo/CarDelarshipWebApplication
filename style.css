@@ -262,6 +262,7 @@ section{
         background-color: rgb(5, 5, 5);
         position: absolute;
         left: 0;
+        height: 10.5rem;
     }
 
     .HamburgerNav .hamburger-navbar-links ul {
@@ -278,7 +279,7 @@ section{
     }
 
     .HamburgerNav .hamburger-navbar-links ul li a{
-        padding: .3rem;
+        padding: .1rem;
         text-align: center;
         color: yellow;
         font-size: 13px;
