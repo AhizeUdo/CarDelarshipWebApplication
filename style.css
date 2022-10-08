@@ -14,7 +14,7 @@ section{
 }
 
 .packet{
-    height: 285vh;
+    height: 327vh;
     /* width: 100%; */
     position: relative;
     background-color: black;
@@ -437,13 +437,13 @@ section{
         height: 13rem;
     }
 
-    .bodysectionWrapper .bodysection-secondsectiontwin .secondsectionimgtwo{
+    .packet .bodysectionWrapper .bodysection-secondsectiontwin .secondsectionimgtwo{
         margin: 0;
         padding: 0;
         width: 100%;
         height: 13rem;
-        background-color: black;
-        position: absolute;
+        /* background-color: black; */
+        position: relative;
     }
 
     .bodysectionWrapper .bodysection-secondsectiontwin .section-two-text-p{
@@ -461,20 +461,17 @@ section{
     }
 
     .packet .bodysectionWrapper .footerSection{
-        height: 24rem;
+        height: 56.3rem;
         padding: 0;
         margin: 0;
         position: relative;
         left: 0;
         right: 0;
+        background-color: black;
+        
         /* bottom: 2rem; */
         /* display: none; */
        
-    }
-
-    .packet .bodysectionWrapper .bodysection-secondsectiontwin .secondsectionimgtwo{
-        height: 15rem;
-        margin: 10px;
     }
 
     .packet .bodysectionWrapper .footerSection .firstfootersection{
@@ -482,6 +479,7 @@ section{
         width: 100vw;
         padding: 5em;
         position: relative;
+        top: 20rem;
         right: 0;
         margin: 0;
         left: 0;
@@ -656,7 +654,7 @@ section{
 .bodysection-secondsectiontwin{
     background-color: black;
     height: 50rem;
-    position: absolute;
+    position: relative;
 }
 
 .bodysection-secondsectiontwin ul {
@@ -669,7 +667,8 @@ section{
     background-position: center;
     background-size: contain;
     position: relative;
-    height: 38rem;
+    width: 100vw;
+    height: 34rem;
 }
 
 .bodysectionWrapper .bodysection-secondsectiontwin  p{
@@ -679,7 +678,7 @@ section{
 }
 
 .bodysectionWrapper  .bodysection-secondsectiontwin h1{
-    font-size: 90px;
+    font-size: 40px;
     color: white;
     padding: 50px;
 }
