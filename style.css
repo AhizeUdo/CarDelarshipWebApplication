@@ -514,6 +514,7 @@ section{
         left: 0;
         background-size: cover;
         background-position: center;
+        background-image: url(/img/ryihomepagemobileversion.jpeg);
         /* display: none; */
     }
 
@@ -725,14 +726,14 @@ section{
     right: 0;
     left: 0;
     position: absolute;
-    background-image: url(/img/footersection.jpeg);
+    background-image: url(/img/ryihomepage.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bodysectionWrapper .footerSection h2{
-    color: white;
+    color: black;
     font-family: "QuickSand" sans-serif;
     font-size: 85px;
 }
