@@ -76,7 +76,7 @@ section{
     } */
 
     .packetGT{
-        width: 105.6vw;
+        width: 100vw;
         /* background-color: rgb(181, 181, 180); */
         height: 200vh;
         position: relative;
@@ -93,7 +93,7 @@ section{
     .packetGT .sectionGT .secondsectionGT{
         top: 14rem;
         height: 17rem;
-        width: 105.6vw;
+        width: 100vw;
         right: 0;
         position: absolute;
         
@@ -109,7 +109,7 @@ section{
     }
 
     .packetGT .footerGT .firstfootersection{
-        width: 109.2vw;
+        width: 100vw;
     }
 
     .packetGT .footerGT .firstfootersection h2{
