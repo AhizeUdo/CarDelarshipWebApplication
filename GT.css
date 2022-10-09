@@ -67,10 +67,20 @@ section{
 }
 
 @media (max-width: 1000px){
+
+    section{
+        position: relative;
+        width: 100vw;
+        right: 0;
+        margin-right: 0;
+    }
+
     .packetGT{
         width: 100vw;
+        background-color: yellow;
         height: 200vh;
         position: relative;
+        margin-right: 0;
     }
 
     .sectionGT .display-4{
@@ -93,8 +103,68 @@ section{
         top: 47rem;
     }
 
-    .sectionGT .footerGT{
+    .packetGT .sectionGT .footerGT{
         top: 90rem;
-        position: absolute;
+        position: relative;
+    }
+
+    .packetGT .footerGT .firstfootersection{
+        width: 109.2vw;
+    }
+
+    .packetGT .footerGT .firstfootersection h2{
+        font-size: 12px;
+    }
+
+    .packetGT .footerGT .firstfootersection p {
+        font-size: 12px;
+    }
+
+    .packetGT .bodysectionWrapper .footerSection .firstfootersection{
+        height: 14rem;
+        width: 100vw;
+        padding: 5em;
+        position: relative;
+        top: 11rem;
+        right: 0;
+        margin: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center;
+        /* display: none; */
+    }
+
+    .packetGT .footerGT .secondfootersection{
+        width: 100%;
+    }
+
+    .packetGT .footerGT .secondfootersection ul li{
+        /* color: pink; */
+        font-size: 14px;
+        padding: 1.3rem;
+    }
+
+    .packetGT .footerGT .secondfootersection-secondpart ul .followus {
+        font-size: 15px;
+    }
+    .packetGT .footerGT .secondfootersection-secondpart ul li .instagram{
+        height: 30px;
+        width: 60px;
+    }
+
+    .packetGT .sectionGT .thirdsectionGT {
+        top: 33rem;
+    }
+
+    .packetGT .sectionGT .thirdsectionGT .specifications h1{
+        font-size: 20px;
+    }
+
+    .packetGT .sectionGT .thirdsectionGT .specifications p{
+        font-size: 15px;
+    }
+
+    .packetGT .sectionGT .footerSection{
+        bottom: 75rem;
     }
 }
