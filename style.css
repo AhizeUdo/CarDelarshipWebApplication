@@ -507,7 +507,7 @@ section{
     .packet .bodysectionWrapper .footerSection .firstfootersection{
         height: 14rem;
         width: 100vw;
-        padding: 5em;
+        padding: 1em;
         position: relative;
         top: 11rem;
         right: 0;
@@ -522,7 +522,7 @@ section{
 
     .bodysectionWrapper .footerSection .firstfootersection h2{
         font-size: 16px;
-        padding: 1em;
+        /* padding: 1em; */
         color:  white;
     }
 
