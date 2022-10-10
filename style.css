@@ -475,7 +475,7 @@ section{
         background-image: linear-gradient(rgb(136, 136, 124));
         border-style: none;
         padding: 0;
-        top: 0.5rem;
+        top: 1.5rem;
         height: 11rem;
     }
 
@@ -486,6 +486,7 @@ section{
         height: 12rem;
         /* background-color: black; */
         position: relative;
+        bottom: 3rem;
     }
 
     .bodysectionWrapper .bodysection-secondsectiontwin .section-two-text-p{
@@ -509,12 +510,12 @@ section{
         position: relative;
         left: 0;
         right: 0;  
-        bottom: 7.5rem;
+        /* bottom: 7.5rem; */
         /* display: none; */
     }
 
     .packet .bodysectionWrapper .footerSection .firstfootersection{
-        height: 13rem;
+        height: 13.5rem;
         width: 100vw;
         padding-top: 2em;
         padding: 1.3em;
