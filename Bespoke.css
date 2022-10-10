@@ -16,7 +16,7 @@ section{
 .packet{
     height: 480vh;
     position: relative;
-    background-color: black;
+    background-color: yellow;
 }
 
 .nav-container{
