@@ -351,15 +351,15 @@ section{
     font-family: "QuickSand" sans-serif;
     font-size: 41px;
     font-weight: 200;
-    color: white;
+    color: rgb(222, 68, 68);
 }
 
 .TextSection p{
     font-family: "QuickSand" sans-serif;
     font-size: 114px;
-    color: white;
+    color: green;
     font-weight: 200;
-    width: 850px;
+    width: 150px;
 }
 
 .bodysectionWrapper{
@@ -601,3 +601,14 @@ section{
 }
 
 
+/* Rebuilding Bespoke Page */
+
+.bodysectionWrapper .TextSection .BS-firstsect-p {
+    font-size: 10px;
+    columns: green;
+}
+
+.bodysectionWrapper .split-images .secondSech1{
+    color: pink;
+    font-size: 20px;
+}

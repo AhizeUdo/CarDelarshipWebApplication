@@ -66,6 +66,27 @@ section{
     width: 100vw;
 }
 
+.bodysectionWrapper .footerSection .ponesection{
+    height: 35rem;
+    padding: 10em;
+    width: 100vw;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background-image: url(/img/ryiPONE```.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bodysectionWrapper .footerSection .ponesection h2{
+    color: black;
+}
+
+.bodysectionWrapper .footerSection .ponesection p{
+    color: black;
+}
+
 @media (max-width: 1000px){
     .packetGT{
         width: 100vw;
