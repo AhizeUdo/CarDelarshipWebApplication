@@ -38,6 +38,27 @@ section{
     background-size: cover; 
 }
 
+.bodysectionWrapper .footerSection .elvasection{
+    height: 35rem;
+    padding: 10em;
+    width: 100vw;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background-image: url(/img/ryiPagani.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bodysectionWrapper .footerSection .elvasection h2{
+    color: white
+}
+
+.bodysectionWrapper .footerSection .elvasection p{
+    color: white;
+}
+
 .thirdsectionGT{
     top: 65.2rem;
     left: 0;
