@@ -17,6 +17,12 @@ closenav.addEventListener('click', () => {
 });
 
 
+
+///////
+
+const packetForms = document.createElement('form')
+
+
 const hidden_section_parent = document.getElementById('hidden-section-parent');
 const hidden_section = document.querySelector('.hidden-section');
 hidden_section.style.display = 'block';
@@ -26,20 +32,35 @@ hidden_section.style.color = 'white';
 
 
 
-const contactFormfirstname = document.createElement('label');
-contactFormfirstname.for = 'lname';
+const contactFormfirstname = document.createElement('input');
+const contactFormFNlabel = document.createElement('label');
+contactFormFNlabel.for = 'fname';
+contactFormFNlabel.style.color = 'white';
+contactFormFNlabel.style.fontSize = '15px'
 contactFormfirstname.type = 'text';
 contactFormfirstname.name = 'firstname';
 contactFormfirstname.placeholder = 'Your name...'
 
-const contactFormlastname = document.createElement('label');
-contactFormlastname.for = 'lname';
+const contactFormlastname = document.createElement('input');
+const contactFormLNlabel = document.createElement('label');
+contactFormLNlabel.for = 'lname';
+contactFormLNlabel.style.color = 'white';
+contactFormLNlabel.style.fontSize = '15px'
 contactFormlastname.type = 'text';
 contactFormlastname.name = 'firstname';
 contactFormlastname.placeholder = 'Your last name...'
 
-hidden_section.appendChild(contactFormlastname)
-hidden_section.appendChild(contactFormfirstname)
+const conta
+
+
+
+packetForms.appendChild(contactFormFNlabel)
+packetForms.appendChild(contactFormfirstname)
+packetForms.appendChild(contactFormLNlabel)
+packetForms.appendChild(contactFormlastname)
+
+hidden_section.appendChild(packetForms)
+
 
 console.log(hidden_section)
-console.log(contactFormlastname)
+console.log(packetForms)
