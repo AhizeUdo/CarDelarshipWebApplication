@@ -48,16 +48,21 @@ contactFormLNlabel.style.color = 'white';
 contactFormLNlabel.style.fontSize = '15px'
 contactFormlastname.type = 'text';
 contactFormlastname.name = 'firstname';
-contactFormlastname.placeholder = 'Your last name...'
+contactFormlastname.placeholder = 'Your last name...';
 
-const conta
+const contactsFormCNlabel = document.createElement('label');
+contactsFormCNlabel.for = 'country'
+
+const contactFormSelect = document.createElement('select')
+contactFormSelect.id = 'country';
+contactFormSelect.name = 'country';
 
 
 
-packetForms.appendChild(contactFormFNlabel)
-packetForms.appendChild(contactFormfirstname)
-packetForms.appendChild(contactFormLNlabel)
-packetForms.appendChild(contactFormlastname)
+packetForms.appendChild(contactFormFNlabel);
+packetForms.appendChild(contactFormfirstname);
+packetForms.appendChild(contactFormLNlabel);
+packetForms.appendChild(contactFormlastname);
 
 hidden_section.appendChild(packetForms)
 
