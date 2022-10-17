@@ -57,6 +57,20 @@ const contactFormSelect = document.createElement('select')
 contactFormSelect.id = 'country';
 contactFormSelect.name = 'country';
 
+const contactFormOptionOne = document.createElement('option');
+const contactFormOptionTwo = document.createElement('option');
+const contactFormOptionThree = document.createElement('option');
+
+
+const contactFormOptionArr = []
+contactFormOptionArr.push(contactFormOptionOne);
+contactFormOptionArr.push(contactFormOptionTwo);
+contactFormOptionArr.push(contactFormOptionThree);
+
+console.log(contactFormOptionArr)
+
+
+
 
 
 packetForms.appendChild(contactFormFNlabel);
