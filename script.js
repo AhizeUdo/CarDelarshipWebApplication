@@ -20,7 +20,8 @@ closenav.addEventListener('click', () => {
 
 ///////
 
-const packetForms = document.createElement('form')
+const packetForms = document.createElement('form');
+packetForms.style.color = 'black';
 
 
 const hidden_section_parent = document.getElementById('hidden-section-parent');
@@ -58,8 +59,14 @@ contactFormSelect.id = 'country';
 contactFormSelect.name = 'country';
 
 const contactFormOptionOne = document.createElement('option');
+contactFormOptionOne.value = 'Australia';
+contactFormOptionOne.innerHTML = 'Australia'
 const contactFormOptionTwo = document.createElement('option');
+contactFormOptionTwo.value = 'Canada';
+contactFormOptionTwo.innerHTML = 'Canada'
 const contactFormOptionThree = document.createElement('option');
+contactFormOptionThree.value = 'Mexico';
+contactFormOptionThree.innerHTML = 'Mexico'
 
 
 const contactFormOptionArr = []
@@ -67,7 +74,11 @@ contactFormOptionArr.push(contactFormOptionOne);
 contactFormOptionArr.push(contactFormOptionTwo);
 contactFormOptionArr.push(contactFormOptionThree);
 
-console.log(contactFormOptionArr)
+// console.log(contactFormOptionArr)
+
+contactFormSelect.appendChild(contactFormOptionOne);
+contactFormSelect.appendChild(contactFormOptionTwo);
+contactFormSelect.appendChild(contactFormOptionThree);
 
 
 
@@ -77,9 +88,11 @@ packetForms.appendChild(contactFormFNlabel);
 packetForms.appendChild(contactFormfirstname);
 packetForms.appendChild(contactFormLNlabel);
 packetForms.appendChild(contactFormlastname);
+packetForms.appendChild(contactFormSelect)
 
 hidden_section.appendChild(packetForms)
 
 
-console.log(hidden_section)
-console.log(packetForms)
+console.log(hidden_section);
+console.log(packetForms);
+console.log(contactFormSelect);
