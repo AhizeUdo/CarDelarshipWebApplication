@@ -37,22 +37,25 @@ const contactFormfirstname = document.createElement('input');
 const contactFormFNlabel = document.createElement('label');
 contactFormFNlabel.for = 'fname';
 contactFormFNlabel.style.color = 'white';
-contactFormFNlabel.style.fontSize = '15px'
+contactFormFNlabel.innerHTML = 'First Name';
+contactFormFNlabel.style.fontSize = '15px';
 contactFormfirstname.type = 'text';
 contactFormfirstname.name = 'firstname';
-contactFormfirstname.placeholder = 'Your name...'
+contactFormfirstname.placeholder = 'Your name...';
 
 const contactFormlastname = document.createElement('input');
 const contactFormLNlabel = document.createElement('label');
 contactFormLNlabel.for = 'lname';
+contactFormLNlabel.innerHTML = 'Last Name';
 contactFormLNlabel.style.color = 'white';
-contactFormLNlabel.style.fontSize = '15px'
+contactFormLNlabel.style.fontSize = '15px';
 contactFormlastname.type = 'text';
 contactFormlastname.name = 'firstname';
 contactFormlastname.placeholder = 'Your last name...';
 
 const contactsFormCNlabel = document.createElement('label');
-contactsFormCNlabel.for = 'country'
+contactsFormCNlabel.for = 'country';
+contactsFormCNlabel.innerHTML = 'Country';
 
 const contactFormSelect = document.createElement('select')
 contactFormSelect.id = 'country';
