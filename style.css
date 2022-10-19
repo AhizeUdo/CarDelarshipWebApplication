@@ -639,6 +639,7 @@ section{
 
 .TextSection {
     position: absolute;
+    top: 16rem;
     bottom: 400px;
     width: 100%;
     z-index: 2;
