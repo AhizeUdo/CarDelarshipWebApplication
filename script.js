@@ -96,6 +96,12 @@ contactFormTextarea.style.height = '200px';
 
 
 
+const contactFormInput = document.createElement('input');
+contactFormInput.type = 'submit'
+contactFormInput.value = 'Submit'
+
+
+
 
 
 packetForms.appendChild(contactFormFNlabel);
