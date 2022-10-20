@@ -89,10 +89,10 @@ contactFormLabelSubject.for = 'country';
 contactFormLabelSubject.innerHTML = 'Subject';
 
 const contactFormTextarea = document.createElement('textarea');
-contactFormTextarea.id = 'subject'
-contactFormTextarea.name = 'subject'
-contactFormTextarea.placeholder = 'Describe your choice vehicle....'
-contactFormTextarea.style.height = '200px'
+contactFormTextarea.id = 'subject';
+contactFormTextarea.name = 'subject';
+contactFormTextarea.placeholder = 'Describe your choice vehicle....';
+contactFormTextarea.style.height = '200px';
 
 
 
