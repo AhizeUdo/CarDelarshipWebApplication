@@ -22,6 +22,7 @@ closenav.addEventListener('click', () => {
 
 const packetForms = document.createElement('form');
 packetForms.style.color = 'black';
+packetForms.style.padding = '20px'
 
 
 const hidden_section_parent = document.getElementById('hidden-section-parent');
@@ -34,6 +35,7 @@ hidden_section.style.color = 'white';
 
 
 const contactFormfirstname = document.createElement('input');
+contactFormfirstname.className = 'input'
 const contactFormFNlabel = document.createElement('label');
 contactFormFNlabel.for = 'fname';
 contactFormFNlabel.style.color = 'white';
@@ -44,6 +46,7 @@ contactFormfirstname.name = 'firstname';
 contactFormfirstname.placeholder = 'Your name...';
 
 const contactFormlastname = document.createElement('input');
+contactFormlastname.className = 'input'
 const contactFormLNlabel = document.createElement('label');
 contactFormLNlabel.for = 'lname';
 contactFormLNlabel.innerHTML = 'Last Name';
@@ -58,6 +61,7 @@ contactsFormCNlabel.for = 'country';
 contactsFormCNlabel.innerHTML = 'Country';
 
 const contactFormSelect = document.createElement('select')
+contactFormSelect.className = 'input'
 contactFormSelect.id = 'country';
 contactFormSelect.name = 'country';
 
@@ -89,6 +93,7 @@ contactFormLabelSubject.for = 'country';
 contactFormLabelSubject.innerHTML = 'Subject';
 
 const contactFormTextarea = document.createElement('textarea');
+contactFormTextarea.className = 'input'
 contactFormTextarea.id = 'subject';
 contactFormTextarea.name = 'subject';
 contactFormTextarea.placeholder = 'Describe your choice vehicle....';
@@ -109,6 +114,9 @@ packetForms.appendChild(contactFormfirstname);
 packetForms.appendChild(contactFormLNlabel);
 packetForms.appendChild(contactFormlastname);
 packetForms.appendChild(contactFormSelect)
+packetForms.appendChild(contactFormLabelSubject);
+packetForms.appendChild(contactFormTextarea);
+packetForms.appendChild(contactFormInput);
 
 hidden_section.appendChild(packetForms)
 
@@ -116,3 +124,8 @@ hidden_section.appendChild(packetForms)
 console.log(hidden_section);
 console.log(packetForms);
 console.log(contactFormSelect);
+
+
+
+// packetForms.style.display = 'flex';
+// packetForms.style.margin - 'auto'
