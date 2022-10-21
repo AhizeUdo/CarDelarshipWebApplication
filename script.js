@@ -27,10 +27,10 @@ packetForms.style.padding = '20px'
 
 const hidden_section_parent = document.getElementById('hidden-section-parent');
 const hidden_section = document.querySelector('.hidden-section');
-hidden_section.style.display = 'block';
-hidden_section.style.backgroundColor = 'red';
-hidden_section.style.height = '300px'; 
-hidden_section.style.color = 'white';
+hidden_section.style.display = 'flex';
+// hidden_section.style.backgroundColor = 'red';
+hidden_section.style.height = '100%'; 
+hidden_section.style.color = 'black';
 
 
 
@@ -38,7 +38,7 @@ const contactFormfirstname = document.createElement('input');
 contactFormfirstname.className = 'input'
 const contactFormFNlabel = document.createElement('label');
 contactFormFNlabel.for = 'fname';
-contactFormFNlabel.style.color = 'white';
+contactFormFNlabel.style.color = 'black';
 contactFormFNlabel.innerHTML = 'First Name';
 contactFormFNlabel.style.fontSize = '15px';
 contactFormfirstname.type = 'text';
@@ -50,7 +50,7 @@ contactFormlastname.className = 'input'
 const contactFormLNlabel = document.createElement('label');
 contactFormLNlabel.for = 'lname';
 contactFormLNlabel.innerHTML = 'Last Name';
-contactFormLNlabel.style.color = 'white';
+contactFormLNlabel.style.color = 'black';
 contactFormLNlabel.style.fontSize = '15px';
 contactFormlastname.type = 'text';
 contactFormlastname.name = 'firstname';
