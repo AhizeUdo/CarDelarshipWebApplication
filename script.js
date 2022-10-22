@@ -74,7 +74,7 @@ contactFormOptionTwo.value = 'Canada';
 contactFormOptionTwo.innerHTML = 'Canada'
 const contactFormOptionThree = document.createElement('option');
 contactFormOptionThree.value = 'Mexico';
-contactFormOptionThree.innerHTML = 'Mexico'
+contactFormOptionThree.innerHTML = 'Mexico';
 
 
 const contactFormOptionArr = []
@@ -104,7 +104,7 @@ contactFormTextarea.style.height = '200px';
 
 const contactFormInput = document.createElement('input');
 contactFormInput.type = 'submit';
-contactFormInput.value = 'Submit'
+contactFormInput.value = 'Submit';
 
 
 
