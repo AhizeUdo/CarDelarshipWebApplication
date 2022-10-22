@@ -26,6 +26,7 @@ packetForms.style.padding = '20px'
 
 
 const hidden_section_parent = document.getElementById('hidden-section-parent');
+hidden_section_parent.style.display = 'none'
 const hidden_section = document.querySelector('.hidden-section');
 hidden_section.style.display = 'flex';
 // hidden_section.style.backgroundColor = 'red';
@@ -102,7 +103,7 @@ contactFormTextarea.style.height = '200px';
 
 
 const contactFormInput = document.createElement('input');
-contactFormInput.type = 'submit'
+contactFormInput.type = 'submit';
 contactFormInput.value = 'Submit'
 
 
@@ -129,3 +130,9 @@ console.log(contactFormSelect);
 
 // packetForms.style.display = 'flex';
 // packetForms.style.margin - 'auto'
+
+
+const activateReachBtn = document.getElementById('activateReach');
+activateReachBtn.addEventListener('click', () => {
+    hidden_section_parent.style.display = 'flex';
+});
