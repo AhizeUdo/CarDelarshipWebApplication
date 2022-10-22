@@ -3,7 +3,7 @@ const navbarlinks = document.getElementsByClassName('hamburger-navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
     navbarlinks.classList.toggle('active')
-    closenavmain.style.display = 'flex'
+    closenavmain.style.display = 'flex';
     // closenavmain.style.width = 
 });
 
@@ -13,7 +13,7 @@ const closenav = document.getElementById('closeXnavigation');
 const closenavmain = document.getElementById('navpackethidden');
 
 closenav.addEventListener('click', () => {
-    closenavmain.style.display = 'none'
+    closenavmain.style.display = 'none';
 });
 
 
@@ -68,7 +68,7 @@ contactFormSelect.name = 'country';
 
 const contactFormOptionOne = document.createElement('option');
 contactFormOptionOne.value = 'Australia';
-contactFormOptionOne.innerHTML = 'Australia'
+contactFormOptionOne.innerHTML = 'Australia';
 const contactFormOptionTwo = document.createElement('option');
 contactFormOptionTwo.value = 'Canada';
 contactFormOptionTwo.innerHTML = 'Canada'
