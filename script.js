@@ -22,11 +22,11 @@ closenav.addEventListener('click', () => {
 
 const packetForms = document.createElement('form');
 packetForms.style.color = 'black';
-packetForms.style.padding = '20px'
+packetForms.style.padding = '20px';
 
 
 const hidden_section_parent = document.getElementById('hidden-section-parent');
-hidden_section_parent.style.display = 'none'
+hidden_section_parent.style.display = 'none';
 const hidden_section = document.querySelector('.hidden-section');
 hidden_section.style.display = 'flex';
 // hidden_section.style.backgroundColor = 'red';
