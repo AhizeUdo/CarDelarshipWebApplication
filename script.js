@@ -47,7 +47,7 @@ contactFormfirstname.name = 'firstname';
 contactFormfirstname.placeholder = 'Your name...';
 
 const contactFormlastname = document.createElement('input');
-contactFormlastname.className = 'input'
+contactFormlastname.className = 'input';
 const contactFormLNlabel = document.createElement('label');
 contactFormLNlabel.for = 'lname';
 contactFormLNlabel.innerHTML = 'Last Name';
