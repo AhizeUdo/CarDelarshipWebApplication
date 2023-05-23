@@ -251,6 +251,7 @@ section{
     .packet{ 
         height: 176vh;
         position: relative;
+        justify-content: space-between;
         background-image: linear-gradient(rgb(136, 136, 124),rgb(136, 136, 124),  );
     }
 
@@ -285,7 +286,7 @@ section{
     }
 
     .HamburgerNav .hamburger-navbar-links{
-        background-color: rgb(5, 5, 5);
+        background-color: rgb(10, 10, 10);
         position: absolute;
         left: 0;
         height: 10.5rem;
@@ -301,6 +302,9 @@ section{
 
     .HamburgerNav .hamburger-navbar-links li {
         top: 0.5rem;
+        text-align: center;
+        align-items: center;
+        margin-left: 6.8rem;
     }
 
     .HamburgerNav .hamburger-navbar-links ul li a{
@@ -331,7 +335,7 @@ section{
     #closeXnavigation a{
         text-align: center;
         align-items: center;
-        margin-left: 9.8rem;
+        margin-left: 6.8rem;
         
     }
 
