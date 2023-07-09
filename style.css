@@ -215,13 +215,15 @@ section{
     display: flex;
 }
 
+/* /*Made changes to the nav here July 9th 2023* / */
+
 .HamburgerNav .hamburger-navbar-links ul li{
-    display: block;
+    display: inline-block;
 }
 
 .HamburgerNav .hamburger-navbar-links ul li a{
     color: white;
-    margin-left: 5rem;
+    margin-left: 9rem;
     cursor: pointer;
     right: 0;
     padding: 0;
